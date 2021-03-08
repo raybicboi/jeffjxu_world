@@ -6,3 +6,5 @@ class Category < ApplicationRecord
   scope :alphabetical, -> { order('name') }
   
 end
+
+# random comment
